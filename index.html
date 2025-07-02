@@ -1,0 +1,107 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kalkulator Pajak MBLB</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <!-- Toggle mode gelap -->
+    <button id="toggleMode" class="mode-button"><i class="fa fa-moon"></i></button>
+    <div class="container">
+        <!-- Spinner loading -->
+        <div id="spinner" class="spinner hidden">Memuat…</div>
+
+        <!-- Kop surat cetak -->
+        <div class="print-header">
+            <div class="header-content">
+                <img src="image/logo.png" alt="Logo Pemkab Mamberamo Raya" class="print-logo">
+                <div class="header-text">
+                    <p class="line1">PEMERINTAH KABUPATEN MAMBERAMO RAYA</p>
+                    <p class="line2">BADAN PENDAPATAN PENGELOLAAN KEUANGAN DAN ASET DAERAH</p>
+                    <p class="line3">Perkantoran Otonom, Distrik Mamberamo Tengah, Kabupaten Mamberamo Raya Provinsi Papua</p>
+                </div>
+            </div>
+            <hr class="header-line">
+        </div>
+
+        <header>
+            <img src="image/logo.png" alt="Logo Pemkab Mamberamo Raya" class="logo">
+            <h1>Kalkulator Pajak MBLB</h1>
+            <div class="identitas-usaha">
+                <p><strong>Nama Usaha:</strong> <input type="text" id="namaUsaha" value="PT Contoh Jaya"></p>
+                <p><strong>Pemilik:</strong> <input type="text" id="pemilik" value="Budi Santoso"></p>
+                <p><strong>NPWPD:</strong> <input type="text" id="npwpd" value="1234567890"></p>
+                <p><strong>Proyek:</strong> <input type="text" id="proyek" value="Pembangunan Infrastruktur"></p>
+                <p><strong>OPD:</strong> <input type="text" id="opd" value="Dinas Pekerjaan Umum"></p>
+                <p><strong>Sumber Dana:</strong> <input type="text" id="sumberDana" value="APBD"></p>
+            </div>
+        </header>
+
+        <form id="taxForm">
+            <div class="form-group">
+                <label for="jenisPekerjaan">Jenis Pekerjaan</label>
+                <select id="jenisPekerjaan" onchange="loadSubComponents()">
+                    <option value="">Pilih Jenis Pekerjaan</option>
+                    <option value="Jalan">Jalan</option>
+                    <option value="Jembatan">Jembatan</option>
+                    <option value="Bangunan Gedung">Bangunan Gedung</option>
+                    <option value="Saluran/Irigasi">Saluran/Irigasi</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="subKomponen">Sub Komponen</label>
+                <select id="subKomponen" onchange="loadMaterials()">
+                    <option value="">Pilih Sub Komponen</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="material">Material</label>
+                <select id="material">
+                    <option value="">Pilih Material</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="volume">Volume (m³)</label>
+                <input type="number" id="volume" required min="0.01" step="0.01">
+            </div>
+            <div class="form-group">
+                <label for="catatan">Catatan</label>
+                <textarea id="catatan"></textarea>
+            </div>
+            <button type="button" onclick="addItem()"><i class="fa fa-plus"></i> Tambah Item</button>
+            <button type="reset"><i class="fa fa-refresh"></i> Reset Form</button>
+            <button type="button" onclick="resetTable()"><i class="fa fa-trash-alt"></i> Reset Tabel</button>
+            <button type="button" onclick="printPDF()"><i class="fa fa-print"></i> Cetak PDF</button>
+        </form>
+
+        <table id="resultTable">
+            <thead>
+                <tr>
+                    <th>Jenis Pekerjaan</th>
+                    <th>Sub Komponen</th>
+                    <th>Material</th>
+                    <th>Volume (m³)</th>
+                    <th>Harga per m³</th>
+                    <th>Tarif %</th>
+                    <th>Total Pajak</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data akan muncul di sini -->
+            </tbody>
+        </table>
+
+        <div id="totalPajak">Total Pajak: Rp 0</div>
+    </div>
+
+    <script src="src/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+Pekerjaan,Sub_Komponen,ID_Material,Material,Harga_Material_per_m3,Tarif_Pajak_Persen
+Jalan - Agregat Perkerasan,Lapis Pondasi Atas (Base Course),base_course,Batu pecah,700000,20
+Jalan - Agregat Perkerasan,Lapis Pondasi Bawah (Sub-base),subbase_aggr,Batu pecah,650000,20
+Jalan - Agregat Perkerasan,Agregat Kasar,andesite_stone,Batu andesit,680000,20
+Jalan - Agregat Perkerasan,Agregat Kasar,crushed_6_14,Batu pecah,600000,20
+Jalan - Agregat Perkerasan,Agregat Kasar,crushed_14_40,Batu pecah,620000,20
+Jalan - Agregat Perkerasan,Agregat Kasar,split_10_20,Batu pecah,650000,20
+Jalan - Agregat Perkerasan,Agregat Kasar,split_20_40,Batu pecah,670000,20
+Jalan - Agregat Perkerasan,Agregat Kasar,river_gravel,Kerikil,550000,20
+Jalan - Agregat Perkerasan,Agregat Kasar,lateritic_gravel,Kerikil,620000,20
+Jalan - Agregat Perkerasan,Agregat Campuran,sirtu,Sirtu,420000,20
+Jalan - Agregat Perkerasan,Agregat Halus,sand_river,Pasir,500000,20
+Jalan - Agregat Perkerasan,Agregat Halus,sand_pit,Pasir,480000,20
+Jalan - Agregat Perkerasan,Agregat Halus,fine_sand,Pasir,520000,20
+Jalan - Agregat Perkerasan,Agregat Halus,coarse_sand,Pasir,450000,20
+Jalan - Agregat Perkerasan,Agregat Halus,coral_sand,Pasir,650000,20
+Jalan - Agregat Perkerasan,Pengisi (Filler),stone_dust,Batu kapur,400000,20
+Jalan - Agregat Perkerasan,Pengisi (Filler),limestone_screenings,Batu kapur,580000,20
+Jalan - Timbunan Tanah,Timbunan Pilihan,laterite,Laterit,400000,20
+Jalan - Timbunan Tanah,Timbunan Pilihan,hardpan_soil,Tanah padas,380000,20
+Jalan - Timbunan Tanah,Timbunan Biasa,subsoil,Tanah urug,300000,20
+Jalan - Timbunan Tanah,Timbunan Biasa,clay,Tanah liat,350000,20
+Jalan - Timbunan Tanah,Timbunan Biasa,shale,Tanah urug,530000,20
+Jalan - Timbunan Tanah,Timbunan Campuran,marl,Marl,550000,20
+Jalan - Timbunan Tanah,Bahan Aditif,trass,Tras,320000,20
+Jalan - Timbunan Tanah,Bahan Aditif,volcanic_ash,Abu vulkanik,300000,20
+Jalan - Backfill,Timbunan Pilihan,select_fill,Tanah urug,450000,20
+Jalan - Stabilitas & Pelindung Erosi,Perkuatan Lereng,riprap_300_500,Batu belah,750000,20
+Jalan - Stabilitas & Pelindung Erosi,Perkuatan Lereng,riprap_500_1000,Batu belah,800000,20
+Jalan - Stabilitas & Pelindung Erosi,Pondasi Batu,split_stone,Batu belah,690000,20
+Jalan - Stabilitas & Pelindung Erosi,Pondasi Batu,cobble_100_200,Batu kali,700000,20
+Jalan - Stabilitas & Pelindung Erosi,Pondasi Batu,cobble_200_400,Batu kali,720000,20
+Jalan - Reklamasi,Pengembalian Tanah Pucuk,topsoil,Tanah urug,200000,20
+Jalan - Pekerjaan Galian,Material Tidak Layak Pakai,peat,Tanah gambut,250000,20
+Jembatan - Oprit & Penghubung,Timbunan Pendekat,sirtu,Sirtu,420000,20
+Jembatan - Oprit & Penghubung,Timbunan Pendekat,laterite,Laterit,400000,20
+Jembatan - Oprit & Penghubung,Timbunan Pendekat,subsoil,Tanah urug,300000,20
+Jembatan - Oprit & Penghubung,Timbunan Pendekat,hardpan_soil,Tanah padas,380000,20
+Jembatan - Oprit & Penghubung,Timbunan Pendekat,sand_river,Pasir,500000,20
+Jembatan - Oprit & Penghubung,Timbunan Pendekat,split_stone,Batu belah,690000,20
+Jembatan - Oprit & Penghubung,Timbunan Pendekat,riprap_300_500,Batu belah,750000,20
+Jembatan - Pelengkap & Proteksi,Pelindung Erosi,riprap_500_1000,Batu belah,800000,20
+Jembatan - Pelengkap & Proteksi,Pelindung Erosi,split_stone,Batu belah,690000,20
+Jembatan - Pelengkap & Proteksi,Pelindung Erosi,cobble_100_200,Batu kali,700000,20
+Jembatan - Pelengkap & Proteksi,Pelindung Erosi,cobble_200_400,Batu kali,720000,20
+Jembatan - Struktur Bawah,Pondasi Batu Kali,split_stone,Batu belah,690000,20
+Jembatan - Struktur Bawah,Pondasi Batu Kali,sand_river,Pasir,500000,20
+Jembatan - Struktur Bawah,Pondasi Batu Kali,subsoil,Tanah urug,300000,20
+Bangunan - Pekerjaan Tanah,Galian Tanah,L1_tanah_urug,Tanah urug,300000,20
+Bangunan - Pekerjaan Tanah,Galian Tanah,L2_tanah_liat,Tanah liat,350000,20
+Bangunan - Pekerjaan Tanah,Galian Tanah,L3_laterit,Laterit,400000,20
+Bangunan - Pekerjaan Tanah,Galian Tanah,L4_padas,Tanah padas,380000,20
+Bangunan - Pekerjaan Tanah,Galian Tanah,L5_gambut,Tanah gambut,250000,20
+Bangunan - Pekerjaan Tanah,Timbunan Pilihan,U1_tanah_urug,Tanah urug,300000,20
+Bangunan - Pekerjaan Tanah,Timbunan Pilihan,U2_laterit,Laterit,400000,20
+Bangunan - Pekerjaan Tanah,Timbunan Pilihan,U3_sirtu,Sirtu,420000,20
+Bangunan - Pekerjaan Tanah,Timbunan Pilihan,U4_pasir,Pasir,500000,20
+Bangunan - Pekerjaan Tanah,Timbunan Biasa,U5_tanah_liat,Tanah liat,350000,20
+Bangunan - Pekerjaan Tanah,Timbunan Biasa,U6_marl,Marl,550000,20
+Bangunan - Pekerjaan Tanah,Bahan Aditif,A1_tras,Tras,320000,20
+Bangunan - Pekerjaan Tanah,Bahan Aditif,A2_abu_vulkanik,Abu vulkanik,300000,20
+Bangunan - Pekerjaan Pondasi,Pondasi Batu Kali,P1_batu_kali,Batu kali,700000,20
+Bangunan - Pekerjaan Pondasi,Pondasi Batu Kali,P2_pasir,Pasir,500000,20
+Bangunan - Pekerjaan Pondasi,Pondasi Batu Belah,P3_batu_belah,Batu belah,690000,20
+Bangunan - Pekerjaan Pondasi,Pondasi Batu Belah,P4_pasir,Pasir,500000,20
+Bangunan - Pekerjaan Struktur,Beton Bertulang,S1_pasir,Pasir,500000,20
+Bangunan - Pekerjaan Struktur,Beton Bertulang,S2_kerikil,Kerikil,550000,20
+Bangunan - Pekerjaan Struktur,Beton Bertulang,S3_batu_pecah,Batu pecah,700000,20
+Bangunan - Pekerjaan Struktur,Beton Bertulang,S4_sirtu,Sirtu,420000,20
+Bangunan - Pekerjaan Struktur,Beton Tidak Bertulang,S5_pasir,Pasir,500000,20
+Bangunan - Pekerjaan Struktur,Beton Tidak Bertulang,S6_kerikil,Kerikil,550000,20
+Bangunan - Pekerjaan Struktur,Beton Tidak Bertulang,S7_batu_pecah,Batu pecah,700000,20
+Bangunan - Pekerjaan Struktur,Beton Tidak Bertulang,S8_sirtu,Sirtu,420000,20
+Bangunan - Pekerjaan Dinding,Pasangan Bata,D1_pasir,Pasir,500000,20
+Bangunan - Pekerjaan Dinding,Pasangan Batako,D2_pasir,Pasir,500000,20
+Bangunan - Pekerjaan Lantai,Rabat Beton,L1_pasir,Pasir,500000,20
+Bangunan - Pekerjaan Lantai,Rabat Beton,L2_kerikil,Kerikil,550000,20
+Bangunan - Pekerjaan Lantai,Rabat Beton,L3_batu_pecah,Batu pecah,700000,20
+Bangunan - Pekerjaan Lantai,Rabat Beton,L4_sirtu,Sirtu,420000,20
+Bangunan - Pekerjaan Drainase/Saluran,Saluran Batu Kali,D1_batu_kali,Batu kali,700000,20
+Bangunan - Pekerjaan Drainase/Saluran,Saluran Batu Kali,D2_pasir,Pasir,500000,20
+Bangunan - Pekerjaan Drainase/Saluran,Saluran Batu Belah,D3_batu_belah,Batu belah,690000,20
+Bangunan - Pekerjaan Drainase/Saluran,Saluran Batu Belah,D4_pasir,Pasir,500000,20
+Bangunan - Pekerjaan Drainase/Saluran,Timbunan Pasir/Kerikil,D5_pasir,Pasir,500000,20
+Bangunan - Pekerjaan Drainase/Saluran,Timbunan Pasir/Kerikil,D6_kerikil,Kerikil,550000,20
+Bangunan - Pekerjaan Lanskap/Reklamasi,Timbunan Topsoil/Lapisan Tanah Atas,R1_topsoil,Topsoil,200000,20
+Bangunan - Pekerjaan Lanskap/Reklamasi,Timbunan Humus,R2_humus,Humus,220000,20
+Saluran/Irigasi - Pekerjaan Tanah,Galian Saluran,T1_tanah_urug,Tanah urug,300000,20
+Saluran/Irigasi - Pekerjaan Tanah,Galian Saluran,T2_tanah_liat,Tanah liat,350000,20
+Saluran/Irigasi - Pekerjaan Tanah,Galian Saluran,T3_laterit,Laterit,400000,20
+Saluran/Irigasi - Pekerjaan Tanah,Galian Saluran,T4_padas,Tanah padas,380000,20
+Saluran/Irigasi - Pekerjaan Tanah,Timbunan Pilihan,U1_tanah_urug,Tanah urug,300000,20
+Saluran/Irigasi - Pekerjaan Tanah,Timbunan Pilihan,U2_laterit,Laterit,400000,20
+Saluran/Irigasi - Pekerjaan Tanah,Timbunan Pilihan,U3_sirtu,Sirtu,420000,20
+Saluran/Irigasi - Pekerjaan Tanah,Timbunan Pilihan,U4_pasir,Pasir,500000,20
+Saluran/Irigasi - Pekerjaan Tanah,Timbunan Biasa,U5_tanah_liat,Tanah liat,350000,20
+Saluran/Irigasi - Pekerjaan Tanah,Timbunan Biasa,U6_marl,Marl,550000,20
+Saluran/Irigasi - Pekerjaan Tanah,Bahan Aditif,A1_tras,Tras,320000,20
+Saluran/Irigasi - Pekerjaan Tanah,Bahan Aditif,A2_abu_vulkanik,Abu vulkanik,300000,20
+Saluran/Irigasi - Pekerjaan Struktur,Pasangan Batu Kali,S1_batu_kali,Batu kali,700000,20
+Saluran/Irigasi - Pekerjaan Struktur,Pasangan Batu Kali,S2_pasir,Pasir,500000,20
+Saluran/Irigasi - Pekerjaan Struktur,Pasangan Batu Belah,S3_batu_belah,Batu belah,690000,20
+Saluran/Irigasi - Pekerjaan Struktur,Pasangan Batu Belah,S4_pasir,Pasir,500000,20
+Saluran/Irigasi - Pekerjaan Struktur,Pasangan Batu Kosong,S5_batu_belah,Batu belah,690000,20
+Saluran/Irigasi - Pekerjaan Struktur,Pasangan Batu Kosong,S6_batu_kali,Batu kali,700000,20
+Saluran/Irigasi - Pekerjaan Struktur,Pasangan Batu Kosong,S7_pasir,Pasir,500000,20
+Saluran/Irigasi - Pekerjaan Struktur,Pondasi Saluran,S8_batu_kali,Batu kali,700000,20
+Saluran/Irigasi - Pekerjaan Struktur,Pondasi Saluran,S9_batu_belah,Batu belah,690000,20
+Saluran/Irigasi - Pekerjaan Struktur,Pondasi Saluran,S10_pasir,Pasir,500000,20
+Saluran/Irigasi - Pekerjaan Struktur,Bedding Saluran,S11_pasir,Pasir,500000,20
+Saluran/Irigasi - Pekerjaan Struktur,Bedding Saluran,S12_sirtu,Sirtu,420000,20
+Saluran/Irigasi - Pekerjaan Struktur,Bedding Saluran,S13_kerikil,Kerikil,550000,20
+Saluran/Irigasi - Pekerjaan Struktur,Timbunan Kembali Saluran,S14_tanah_urug,Tanah urug,300000,20
+Saluran/Irigasi - Pekerjaan Struktur,Timbunan Kembali Saluran,S15_sirtu,Sirtu,420000,20
+Saluran/Irigasi - Pekerjaan Struktur,Timbunan Kembali Saluran,S16_pasir,Pasir,500000,20
+Saluran/Irigasi - Pekerjaan Pelindung Erosi,Pelindung Tebing Saluran,E1_batu_belah,Batu belah,690000,20
+Saluran/Irigasi - Pekerjaan Pelindung Erosi,Pelindung Tebing Saluran,E2_batu_kali,Batu kali,700000,20
+Saluran/Irigasi - Pekerjaan Pelindung Erosi,Pelindung Tebing Saluran,E3_kerikil,Kerikil,550000,20
+},,,,,
